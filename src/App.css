@@ -1,8 +1,19 @@
 .App {
   text-align: center;
+  color: #475053;
   padding: 40px;
+  background: #f0fbff;
 }
 
 form {
   padding: 30px;
+}
+
+.submitButton {
+  background: #2e94b9;
+  color: #f0fbff;
+  border: #2e94b9;
+  border-radius: 5%;
+  margin: 20px;
+  padding: 5px 10px;
 }

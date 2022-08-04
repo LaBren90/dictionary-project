@@ -4,7 +4,7 @@ import SearchEngine from "./SearchEngine";
 export default function App() {
   return (
     <div className="App">
-      <h1>Dictionary</h1>
+      <h1>📖 Dictionary </h1>
       <SearchEngine />
     </div>
   );
