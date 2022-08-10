@@ -5,8 +5,17 @@
   background: #f0fbff;
 }
 
+h1 {
+  font-size: 72px;
+}
+
 form {
   padding: 30px;
+}
+h2 {
+  font-size: 56px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
 }
 
 .submitButton {
@@ -16,4 +25,16 @@ form {
   border-radius: 5%;
   margin: 20px;
   padding: 5px 10px;
+  font-weight: 600;
+  box-shadow: #475053;
+}
+
+.phoneticAudio {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.phoneticText {
+  font-size: 22px;
 }

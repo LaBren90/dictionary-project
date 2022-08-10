@@ -29,7 +29,7 @@ export default function SearchEngine() {
           placeholder="Enter a word..."
           onChange={handleKeywordChange}
         />
-        <input type="submit" value="Search" className="submitButton" />
+        <input type="submit" value="Search" className="submitButton shadow" />
       </form>
       <Results results={results} />
     </div>
