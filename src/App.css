@@ -38,3 +38,31 @@ h2 {
 .phoneticText {
   font-size: 22px;
 }
+
+h3 {
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+
+.Synonyms {
+  list-style: none;
+}
+
+.definition {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+  line-height: 2;
+  border: 2px solid #2e94b9;
+  border-radius: 5px;
+}
+
+.example {
+  font-weight: 600;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.eachDefinition {
+  font-size: 20px;
+}
