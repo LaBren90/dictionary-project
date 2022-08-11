@@ -42,10 +42,16 @@ h2 {
 h3 {
   margin-top: 24px;
   margin-bottom: 20px;
+  font-size: 40px;
 }
 
 .Synonyms {
   list-style: none;
+}
+
+.synonymList {
+  padding-right: 20px;
+  opacity: 0.7;
 }
 
 .definition {
@@ -55,6 +61,8 @@ h3 {
   line-height: 2;
   border: 2px solid #2e94b9;
   border-radius: 5px;
+  box-shadow: 3px 3px 3px lightgray;
+  background: #f5fafc;
 }
 
 .example {

@@ -6,7 +6,7 @@ export default function Synonyms(props) {
       <ul className="Synonyms">
         {props.synonyms.map(function (synonym, index) {
           return (
-            <li key={index} className="d-inline-flex justify-content-between">
+            <li key={index} className="synonymList d-inline-flex">
               {synonym}
             </li>
           );
