@@ -25,7 +25,7 @@ export default function SearchEngine() {
     let pexelsApiKey =
       "563492ad6f91700001000001cf280b24243146b0b41894a895c28763";
 
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=8`;
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
   }

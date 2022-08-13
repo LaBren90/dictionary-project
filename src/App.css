@@ -55,8 +55,8 @@ h3 {
 }
 
 .definition {
-  margin-left: 100px;
-  margin-right: 100px;
+  max-width: 900px;
+  margin: 0 auto;
   margin-bottom: 30px;
   line-height: 2;
   border: 2px solid #2e94b9;
@@ -77,4 +77,5 @@ h3 {
 
 img {
   display: block;
+  border-radius: 3px;
 }

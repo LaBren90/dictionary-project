@@ -7,17 +7,15 @@ export default function Photos(props) {
         <div className="row">
           {props.photos.map(function (photo, index) {
             return (
-              <div classsName="col-3 d-inline-flex" key={index}>
-                <a
-                  href={photo.src.original}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="d-inline-flex"
-                >
+              <div
+                className="col-4 d-inline-flex justify-content-center"
+                key={index}
+              >
+                <a href={photo.src.original} target="_blank" rel="noreferrer">
                   <img
                     src={photo.src.tiny}
                     alt={photo.alt}
-                    className="img-fluid d-inline-flex"
+                    className="img-fluid d-inline-flex justify-content-center mb-4"
                   />
                 </a>{" "}
               </div>
